@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.header1 img{
+    
+    width: 100%;
+}
+.nav ul ,li,a{
+    display: flex;
+    list-style: none;
+    text-decoration:none;
+    justify-content: space-between;
+    color: white;
+    line-height: 5vh;
+    
+}
+.main img{
+    width:100% ;
+}
+.clients img{
+    clip-path: circle();
+    margin: 3rem 2rem;;
+}
+.clients{
+    width: 70%;
+    margin: 5rem 3rem;
+
+}
+.clients h3 {
+    margin: 3rem 0 0;
+    text-align: center;
+    font-size: 29px;
+}
+.clients  p{
+    margin: 1rem 0 1rem;
+    text-align: center;
+}
+.imgarrow{
+    width: 40rem;
+    height: 20vh;
+    position: absolute;
+    top: 43%;
+    
+}
+.header1 h1{
+    font-size: 3rem;
+    position: absolute;
+    top: 23vh;
+    left: 3vh;
+    color: white;
+    text-align: center;
+}
+.nav{
+    position: fixed;
+    background: url(/sunnyside/images/mobile/image-header.jpg);
+    background-size: cover;
+
+    width: 100%;
+    color: white;
+}
+
+
+.blockimg img{
+    
+    width: 50%;
+    
+}
+.img2,.img4{
+    float: right;
+}
+footer ul ,a{
+    display:flex ;
+}
+footer{
+    
+    line-height: 10vh ;
+    background:  rgb(51, 212, 206);
+}
+footer h4{
+    text-align: center;
+}
+footer ul li,a{
+    list-style: none;
+    text-decoration: none;
+}
+footer ul li{
+   margin: 0 3vh;
+}
+footer ul{
+    margin-left: 3vh;
+    font-size: 20px;
+}
+footer img{
+    margin-left: 3vh;
+}
+.imgfoot{
+    margin-left: 14vh;
+}
