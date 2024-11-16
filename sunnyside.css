@@ -1,59 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 
 }
-.header1 img{
-    
+
+.imgheader {
+
     width: 100%;
 }
-.nav ul ,li,a{
+
+.nav {
     display: flex;
-    list-style: none;
-    text-decoration:none;
     justify-content: space-between;
-    color: white;
-    line-height: 5vh;
-    
+    font-size: 4vh;
 }
-.main img{
-    width:100% ;
+
+.nav ul {
+
+    display: none;
 }
-.clients img{
+
+.clients img {
     clip-path: circle();
-    margin: 3rem 2rem;;
+    margin: 3rem 2rem;
+
 }
-.clients{
+
+.clients {
     width: 70%;
     margin: 5rem 3rem;
 
 }
+
 .clients h3 {
     margin: 3rem 0 0;
     text-align: center;
     font-size: 29px;
 }
-.clients  p{
+
+.clients p {
     margin: 1rem 0 1rem;
     text-align: center;
 }
-.imgarrow{
-    width: 40rem;
-    height: 20vh;
+
+.imgarrow {
     position: absolute;
-    top: 43%;
-    
+    left: 45%;
+    top: 40%;
+
 }
-.header1 h1{
+
+.header1 h1 {
     font-size: 3rem;
     position: absolute;
-    top: 23vh;
+    top: 15vh;
     left: 3vh;
     color: white;
     text-align: center;
 }
-.nav{
+
+.nav {
     position: fixed;
     background: url(/sunnyside/images/mobile/image-header.jpg);
     background-size: cover;
@@ -62,40 +69,231 @@
     color: white;
 }
 
+.blockimg img {
 
-.blockimg img{
-    
     width: 50%;
-    
+
 }
-.img2,.img4{
+
+.img2,
+.img4 {
     float: right;
 }
-footer ul ,a{
-    display:flex ;
+
+footer ul,
+a {
+    display: flex;
 }
-footer{
-    
-    line-height: 10vh ;
-    background:  rgb(51, 212, 206);
+
+footer {
+
+    line-height: 10vh;
+    background: rgb(51, 212, 206);
 }
-footer h4{
+
+footer h4 {
     text-align: center;
 }
-footer ul li,a{
+
+footer ul li,
+a {
     list-style: none;
     text-decoration: none;
 }
-footer ul li{
-   margin: 0 3vh;
+
+footer ul li {
+    margin: 0 3vh;
 }
-footer ul{
+
+footer ul {
     margin-left: 3vh;
     font-size: 20px;
 }
-footer img{
+
+footer img {
     margin-left: 3vh;
 }
-.imgfoot{
+
+.imgfoot {
     margin-left: 14vh;
+}
+
+/*  ici comment le code desktop*/
+
+
+
+@media(min-width: 769px) {
+
+    .nav ul,li, a {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        font-size: 5vh;
+        color: white;
+        line-height: 5vh;
+    }
+
+    .nav ul li {
+       
+        padding: 0 5vh;
+    }
+
+    .nav i {
+        display: none;
+    }
+   
+
+.imgarrow {
+    position: absolute;
+    left: 45%;
+    top: 170%;
+    width: 10%;
+
+}
+.Contacts{
+    background: white;
+    color: black;
+    padding: 1vh;
+    border-radius: 10px;
+}
+.header1 h1 {
+    font-size: 3rem;
+    position: absolute;
+    top:65vh;
+    left: 30%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+   .transform{
+    float: left;
+    width: 50%;
+   }
+   .oeuf{
+    width: 50%;
+   }
+   .verre{
+    float: right;
+    width: 50%;
+   }
+   .imgver{
+   width: 50%;
+   }
+   .pomme{
+    width: 50%;
+    float: right;
+   }
+   .orange{
+    width: 50%;
+   }
+   .mainp{
+    position: absolute;
+    top: 700%;
+    left: 65%;
+   }
+   .maino{
+    position: absolute;
+    top: 700%;
+    left: 15%;
+   }
+   .imgor{
+    width: 50%;
+
+   }
+   .imgp{
+    width: 50%;
+    float: right;
+   }
+   .im{
+    width: 5%;
+   }
+  
+   
+   
+   
+   
+   
+   
+   
+   
+    section{
+        display: flex;
+    }
+    .section{
+        text-align: center;
+        font-size:40;
+    }
+
+
+    .blockimg {
+
+        display: flex;
+        width: 50%;
+    }
+
+
+    footer {
+
+        line-height: 20vh;
+        background: rgb(51, 212, 206);
+    }
+
+    footer h4 {
+        text-align: center;
+        font-size: 10vh;
+    }
+
+    footer ul li,
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    footer ul li {
+        margin: 0 5%;
+    }
+
+    footer ul {
+        margin-left: 3rem;
+        justify-content: space-between;
+    }
+
+    footer img {
+        margin-left: 10vh;
+        width: 10vh;
+    }
+
+    .imgfoot {
+        margin-left: 30vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
