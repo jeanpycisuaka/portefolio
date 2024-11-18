@@ -15,6 +15,9 @@
     justify-content: space-between;
     font-size: 4vh;
 }
+.desktopimge{
+    display: none;
+}
 
 .nav ul {
 
@@ -88,7 +91,7 @@ a {
 footer {
 
     line-height: 10vh;
-    background: rgb(51, 212, 206);
+    background: #8BCBBF;
 }
 
 footer h4 {
@@ -146,9 +149,16 @@ footer img {
 .imgarrow {
     position: absolute;
     left: 45%;
-    top: 170%;
-    width: 10%;
+    top: 38%;
+    width: 4%;
 
+}
+.imgmobil{
+    display: none;
+    
+}
+.imgdesktop{
+    width: 100%;
 }
 .Contacts{
     background: white;
@@ -157,10 +167,10 @@ footer img {
     border-radius: 10px;
 }
 .header1 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     position: absolute;
-    top:65vh;
-    left: 30%;
+    top:20vh;
+    left: 26%;
     color: white;
     text-align: center;
 }
@@ -193,22 +203,25 @@ footer img {
    }
    .mainp{
     position: absolute;
-    top: 700%;
+    top: 300%;
     left: 65%;
+    
    }
    .maino{
     position: absolute;
-    top: 700%;
+    top: 300%;
     left: 15%;
    }
-   .imgor{
+   .desktopimge{
     width: 50%;
-
-   }
-   .imgp{
     width: 50%;
     float: right;
    }
+   .imgp,.imgor{
+   display: none;
+    
+   }
+   
    .im{
     width: 5%;
    }
