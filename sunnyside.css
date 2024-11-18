@@ -15,9 +15,10 @@
     justify-content: space-between;
     font-size: 4vh;
 }
-.desktopimge{
+.desktopimge,.imgdesktop{
     display: none;
 }
+
 
 .nav ul {
 
@@ -46,7 +47,10 @@
     margin: 1rem 0 1rem;
     text-align: center;
 }
-
+.sectionclien{
+    margin-top: 5vh;
+    text-align: center;
+}
 .imgarrow {
     position: absolute;
     left: 45%;
@@ -82,6 +86,17 @@
 .img4 {
     float: right;
 }
+.mainp{
+    position: absolute;
+    top: 330%;
+    left: 25%;
+    
+   }
+   .maino{
+    position: absolute;
+    top: 250%;
+    left: 25%;
+   }
 
 footer ul,
 a {
