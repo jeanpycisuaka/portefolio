@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
     <link rel="stylesheet" href="contacts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="head">
-        <h3>Jeanpy Cisuaka</h3>
-        <ul class="head">
-            <li><a href="acceuil.html">acceuil</a></li>
-            <li><a href="cv.html">cv</a></li>
-            <li><a href="contacts.html">contacts</a></li>
-            <li><a href="projets.html">projets</a></li>
-        </ul>
-    </div>
-    <img  src="jeanpy.jpg" alt="">
-    <div class="a_para">
-        <h2>Hello world</h2>
-        <p class="a_para1">
-            je suis Jeanpy Cisuaka un developpeur web & mobile curieux au coeur du 
-            developpement technologique et ma maitrise pour l'inovation informatique
-        </p>
+
+    
         
-    </div>
-    <footer>
-        <ul class="footer">
-            <li>Telephone</li>
-            <li>Email</li>
-            <li>Suivez-moi</li>
-            <li>copyright@2024  jeanpycisuak@</li>
+        <header class="nav">
+
+        
+            <h3 class="nav__logo">JeanMiteo</h3>
+                
+                <div class="menu-container">
+                    <div class="hamburger-menu" onclick="toggleMenu()">
+                        <i class="bi bi-list"></i>
+                        
+                    </div>
+                    
+                </div>
+        
+                <script>
+                    function toggleMenu() {
+                        document.getElementById("menu").classList.toggle("active");
+                    }
+                </script>
+            
+        </header>
+        <nav id="menu" class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#">CV</a></li>
+                <li class="menu__item "><a href="#">Contacts</a></li>
+                <li class="menu__item"><a href="#">Projets</a></li>
+
+            </ul>
+        </nav>
+        
+    
+    <main class="main">
+        <img class="main__image" src="jeanpy.jpg" alt="Jeanpy">
+        <div class="main__content">
+            <h2 class="main__title">Hello world</h2>
+            <p class="main__text">
+                je suis Jeanpy Cisuaka un developpeur web & mobile curieux au coeur du
+                developpement technologique et ma maitrise pour l'inovation informatique
+            </p>
+        </div>
+    </main>
+    
+
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item">Telephone :     +243 85 812 47 47</li>
+            <li class="footer__item">Email :  jeanpycisuaka@gmail.com</li>
+            <li class="footer__item">Suivez-moi sur : </li>
+            <li class="footer__item footer__copyright">copyright@2024 jeanpycisuak@</li>
         </ul>
     </footer>
+    
 </body>
+
 </html>

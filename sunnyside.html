@@ -11,18 +11,35 @@
 </head>
 
 <body>
-
     <div class="nav">
-        <h3>sunnyside</h3>
-        <i class="bi bi-list"></i>
-        <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Projets</a></li>
-            <li><a class="Contacts" href="">Contacts</a></li>
-        </ul>
-    </div>
 
+        
+        <h3>sunnyside</h3>
+            
+            <div class="menu-container">
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <i class="bi bi-list"></i>
+                    
+                </div>
+                
+            </div>
+    
+            <script>
+                function toggleMenu() {
+                    document.getElementById("menu").classList.toggle("active");
+                }
+            </script>
+        
+    </div>
+    <nav id="menu" class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="#">About</a></li>
+            <li class="menu__item"><a href="#">Services</a></li>
+            <li class="menu__item"><a href="#">Projets</a></li>
+            <li class="menu__item menu__item__font"><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+    
     <div class="header1">
         <h1>WE ARE CREATIVES</h1>
         <img src="/sunnyside/images/mobile/image-header.jpg" alt="" class="imgmobil imgheader">
@@ -43,6 +60,7 @@
             <h3 class="transforme__bouton">LEARN MORE</h3>
             <span class="transforme__soulignement"></span>
         </div>
+
     </span>
     <span>
         <img src="/sunnyside/images/mobile/image-stand-out.jpg" alt="" class="imgheader imgver">
